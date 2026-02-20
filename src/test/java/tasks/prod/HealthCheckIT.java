@@ -19,7 +19,7 @@ public class HealthCheckIT {
 	    ChromeOptions options = new ChromeOptions();
 
 	    WebDriver driver = new RemoteWebDriver(
-	            new URL("http://172.26.144.1:4444/wd/hub"),
+	            new URL("http://localhost:4444/wd/hub"),
 	            options
 	    );
 
