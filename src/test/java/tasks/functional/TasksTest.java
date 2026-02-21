@@ -34,7 +34,7 @@ public class TasksTest {
 	    
 	    try {
 	    	
-	    	driver.get("http://172.26.144.1:8001/tasks");
+	    	driver.get("http://frontend-prod:8080/tasks");
 	    	
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
