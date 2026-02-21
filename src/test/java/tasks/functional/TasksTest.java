@@ -164,7 +164,7 @@ public class TasksTest {
 
     	    try {
 
-    	    	driver.get("http://localhost:8080/tasks");
+    	    	driver.get("http://frontend:8080/tasks");
 
     	    	// inserir tarefa
     			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
