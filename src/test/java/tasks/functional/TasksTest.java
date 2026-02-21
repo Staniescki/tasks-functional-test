@@ -164,7 +164,12 @@ public class TasksTest {
 
     	    try {
 
+    	    	
+    	    	System.out.print("GREMIOOOO");
+    	    	
     	    	driver.get("http://frontend:8080/tasks");
+    	    	
+    	    	
 
     	    	// inserir tarefa
     			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -173,7 +178,7 @@ public class TasksTest {
     			driver.findElement(By.id("addTodo")).click();
 
     			// escrever descricao
-    			driver.findElement(By.id("task")).sendKeys("Teste via selenium");
+    			driver.findElement(By.id("task")).sendKeys("Teste via DOCKER");
 
     			// escrever a data
     			driver.findElement(By.id("dueDate")).sendKeys("10/10/2030");
